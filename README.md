@@ -45,7 +45,10 @@ Requirements
 
 Installation
 -------------
-* `git clone https://github.com/indrajithi/mgc-django.git`
+This repository is maintained at [playarea1/ML_Music_Genre_Classifier](https://github.com/playarea1/ML_Music_Genre_Classifier). The earlier project source is available at [indrajithi/mgc-django](https://github.com/indrajithi/mgc-django).
+
+* `git clone https://github.com/playarea1/ML_Music_Genre_Classifier.git`
+* `cd ML_Music_Genre_Classifier`
 * `pip install -r requirements.txt` 
 * `python manage.py migrate`
 * `python manage.py runserver`
@@ -188,4 +191,3 @@ Results
 
 We have tried various machine learning algorithms for this project. Our aim is to get maximum accuracy. We have found from our research that we can a get maximum accuracy of `65%` by using `poly kernel SVM` for 10 genre classes. We have also tried to find the best combination of genre classes which will result in maximum accuracy. If we choose 6 genre classes we were able to get an accuracy of `85%`. We chose these labels for the Web Application [classical, hip-hop, jazz, metal, pop and rock]
 For some songs we can say that it has feature of multiple genres. So we have also tried to get multiple label outputs based on the probability.
-
